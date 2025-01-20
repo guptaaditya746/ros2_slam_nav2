@@ -1,0 +1,9 @@
+source;share/seav_test_sensors/hook/pythonpath.ps1
+source;share/seav_test_sensors/hook/pythonpath.dsv
+source;share/seav_test_sensors/hook/pythonpath.sh
+source;share/seav_test_sensors/hook/ament_prefix_path.ps1
+source;share/seav_test_sensors/hook/ament_prefix_path.dsv
+source;share/seav_test_sensors/hook/ament_prefix_path.sh
+source;../../build/seav_test_sensors/share/seav_test_sensors/hook/pythonpath_develop.ps1
+source;../../build/seav_test_sensors/share/seav_test_sensors/hook/pythonpath_develop.dsv
+source;../../build/seav_test_sensors/share/seav_test_sensors/hook/pythonpath_develop.sh

@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.003405] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.005823] (seav_test_sensors) JobQueued: {'identifier': 'seav_test_sensors', 'dependencies': OrderedDict()}
+[0.007273] (tf2_msgs) JobQueued: {'identifier': 'tf2_msgs', 'dependencies': OrderedDict()}
+[0.007589] (tf2) JobQueued: {'identifier': 'tf2', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs')])}
+[0.008104] (tf2_bullet) JobQueued: {'identifier': 'tf2_bullet', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2')])}
+[0.008496] (tf2_eigen) JobQueued: {'identifier': 'tf2_eigen', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2')])}
+[0.008667] (tf2_py) JobQueued: {'identifier': 'tf2_py', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2')])}
+[0.008846] (tf2_ros) JobQueued: {'identifier': 'tf2_ros', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py')])}
+[0.009109] (static_tf_publisher) JobQueued: {'identifier': 'static_tf_publisher', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros')])}
+[0.009229] (tf2_geometry_msgs) JobQueued: {'identifier': 'tf2_geometry_msgs', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros')])}
+[0.009340] (tf2_kdl) JobQueued: {'identifier': 'tf2_kdl', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros')])}
+[0.009530] (tf2_sensor_msgs) JobQueued: {'identifier': 'tf2_sensor_msgs', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros')])}
+[0.009650] (tf2_tools) JobQueued: {'identifier': 'tf2_tools', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros')])}
+[0.009761] (geometry2) JobQueued: {'identifier': 'geometry2', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_bullet', '/home/seav/ros2_ws/install/tf2_bullet'), ('tf2_eigen', '/home/seav/ros2_ws/install/tf2_eigen'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros'), ('tf2_geometry_msgs', '/home/seav/ros2_ws/install/tf2_geometry_msgs'), ('tf2_kdl', '/home/seav/ros2_ws/install/tf2_kdl'), ('tf2_sensor_msgs', '/home/seav/ros2_ws/install/tf2_sensor_msgs'), ('tf2_tools', '/home/seav/ros2_ws/install/tf2_tools')])}
+[0.009961] (test_tf2) JobQueued: {'identifier': 'test_tf2', 'dependencies': OrderedDict([('tf2_msgs', '/home/seav/ros2_ws/install/tf2_msgs'), ('tf2', '/home/seav/ros2_ws/install/tf2'), ('tf2_bullet', '/home/seav/ros2_ws/install/tf2_bullet'), ('tf2_eigen', '/home/seav/ros2_ws/install/tf2_eigen'), ('tf2_py', '/home/seav/ros2_ws/install/tf2_py'), ('tf2_ros', '/home/seav/ros2_ws/install/tf2_ros'), ('tf2_geometry_msgs', '/home/seav/ros2_ws/install/tf2_geometry_msgs'), ('tf2_kdl', '/home/seav/ros2_ws/install/tf2_kdl')])}
+[0.010086] (tf2_msgs) JobStarted: {'identifier': 'tf2_msgs'}
+[0.054560] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.090264] (seav_test_sensors) JobStarted: {'identifier': 'seav_test_sensors'}
+[0.098450] (-) TimerEvent: {}
+[0.152565] (tf2_msgs) JobProgress: {'identifier': 'tf2_msgs', 'progress': 'cmake'}
+[0.154464] (tf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/seav/ros2_ws/src/geometry2/tf2_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/seav/ros2_ws/install/tf2_msgs'], 'cwd': '/home/seav/ros2_ws/build/tf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'seav'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seav'), ('OLDPWD', '/home/seav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3401'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/seav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'seav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/seav-desktop:@/tmp/.ICE-unix/2724,unix/seav-desktop:/tmp/.ICE-unix/2724'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5064a6ea_dfbd_4a9e_9912_11123532ff14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/seav/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/seav'), ('AMENT_PREFIX_PATH', '/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seav/ros2_ws/build/tf2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seav/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[0.177353] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.178794] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/seav/ros2_ws/src/rplidar_ros', '-DCMAKE_INSTALL_PREFIX=/home/seav/ros2_ws/install/rplidar_ros'], 'cwd': '/home/seav/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'seav'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seav'), ('OLDPWD', '/home/seav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3401'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/seav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'seav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/seav-desktop:@/tmp/.ICE-unix/2724,unix/seav-desktop:/tmp/.ICE-unix/2724'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5064a6ea_dfbd_4a9e_9912_11123532ff14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/seav/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/seav'), ('AMENT_PREFIX_PATH', '/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seav/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seav/ros2_ws/install/rplidar_ros:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble')]), 'shell': False}
+[0.198791] (-) TimerEvent: {}
+[0.300272] (-) TimerEvent: {}
+[0.401159] (-) TimerEvent: {}
+[0.501968] (-) TimerEvent: {}
+[0.602898] (-) TimerEvent: {}
+[0.704130] (-) TimerEvent: {}
+[0.713063] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.715024] (tf2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.804327] (-) TimerEvent: {}
+[0.905841] (-) TimerEvent: {}
+[1.006819] (-) TimerEvent: {}
+[1.108215] (-) TimerEvent: {}
+[1.124075] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.129309] (tf2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.168009] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.177630] (tf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.208488] (-) TimerEvent: {}
+[1.309403] (-) TimerEvent: {}
+[1.410385] (-) TimerEvent: {}
+[1.511406] (-) TimerEvent: {}
+[1.612979] (-) TimerEvent: {}
+[1.646154] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.680865] (tf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.693590] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.696669] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.699558] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.713164] (-) TimerEvent: {}
+[1.717180] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.719424] (tf2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.720631] (tf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.722708] (tf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.740319] (tf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.813417] (-) TimerEvent: {}
+[1.914833] (-) TimerEvent: {}
+[2.016242] (-) TimerEvent: {}
+[2.117690] (-) TimerEvent: {}
+[2.219026] (-) TimerEvent: {}
+[2.297705] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.319234] (-) TimerEvent: {}
+[2.337390] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.339131] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.344662] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.375380] (tf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.416010] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.419383] (-) TimerEvent: {}
+[2.421631] (tf2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.422818] (tf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.426820] (tf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.519763] (-) TimerEvent: {}
+[2.621286] (-) TimerEvent: {}
+[2.688354] (tf2_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.693015] (tf2_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.708306] (tf2_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.709003] (tf2_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.709489] (tf2_msgs) StderrLine: {'line': b'\n'}
+[2.709861] (tf2_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.710346] (tf2_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.710665] (tf2_msgs) StderrLine: {'line': b'\n'}
+[2.710989] (tf2_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.711323] (tf2_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.711679] (tf2_msgs) StderrLine: {'line': b'\n'}
+[2.712033] (tf2_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.712503] (tf2_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.712946] (tf2_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.713295] (tf2_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.713633] (tf2_msgs) StderrLine: {'line': b'\n'}
+[2.713975] (tf2_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.714300] (tf2_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.714628] (tf2_msgs) StdoutLine: {'line': b'See also "/home/seav/ros2_ws/build/tf2_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.722333] (-) TimerEvent: {}
+[2.742444] (tf2_msgs) CommandEnded: {'returncode': 1}
+[2.822725] (-) TimerEvent: {}
+[2.903006] (tf2_msgs) JobEnded: {'identifier': 'tf2_msgs', 'rc': 1}
+[2.932556] (-) TimerEvent: {}
+[3.037041] (-) TimerEvent: {}
+[3.138864] (-) TimerEvent: {}
+[3.240063] (-) TimerEvent: {}
+[3.340982] (-) TimerEvent: {}
+[3.442067] (-) TimerEvent: {}
+[3.543037] (-) TimerEvent: {}
+[3.644695] (-) TimerEvent: {}
+[3.650861] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.744722] (-) TimerEvent: {}
+[3.845541] (-) TimerEvent: {}
+[3.946282] (-) TimerEvent: {}
+[4.047329] (-) TimerEvent: {}
+[4.148796] (-) TimerEvent: {}
+[4.249580] (-) TimerEvent: {}
+[4.350325] (-) TimerEvent: {}
+[4.451075] (-) TimerEvent: {}
+[4.551894] (-) TimerEvent: {}
+[4.579501] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.652144] (-) TimerEvent: {}
+[4.753477] (-) TimerEvent: {}
+[4.855377] (-) TimerEvent: {}
+[4.957559] (-) TimerEvent: {}
+[5.060546] (-) TimerEvent: {}
+[5.162640] (-) TimerEvent: {}
+[5.265235] (-) TimerEvent: {}
+[5.370055] (-) TimerEvent: {}
+[5.464242] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.470319] (-) TimerEvent: {}
+[5.505804] (seav_test_sensors) JobEnded: {'identifier': 'seav_test_sensors', 'rc': 'SIGINT'}
+[5.557428] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.570722] (-) TimerEvent: {}
+[5.672868] (-) TimerEvent: {}
+[5.680769] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.772988] (-) TimerEvent: {}
+[5.805711] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.873181] (-) TimerEvent: {}
+[5.974106] (-) TimerEvent: {}
+[5.983329] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.074316] (-) TimerEvent: {}
+[6.175097] (-) TimerEvent: {}
+[6.275952] (-) TimerEvent: {}
+[6.376815] (-) TimerEvent: {}
+[6.477611] (-) TimerEvent: {}
+[6.495380] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.534786] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.577867] (-) TimerEvent: {}
+[6.678741] (-) TimerEvent: {}
+[6.779505] (-) TimerEvent: {}
+[6.880235] (-) TimerEvent: {}
+[6.981212] (-) TimerEvent: {}
+[7.081958] (-) TimerEvent: {}
+[7.182879] (-) TimerEvent: {}
+[7.283670] (-) TimerEvent: {}
+[7.367703] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.383911] (-) TimerEvent: {}
+[7.484729] (-) TimerEvent: {}
+[7.585456] (-) TimerEvent: {}
+[7.686165] (-) TimerEvent: {}
+[7.715351] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.786351] (-) TimerEvent: {}
+[7.887362] (-) TimerEvent: {}
+[7.988096] (-) TimerEvent: {}
+[8.088867] (-) TimerEvent: {}
+[8.189571] (-) TimerEvent: {}
+[8.265205] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.289756] (-) TimerEvent: {}
+[8.382568] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.389956] (-) TimerEvent: {}
+[8.490773] (-) TimerEvent: {}
+[8.591918] (-) TimerEvent: {}
+[8.693506] (-) TimerEvent: {}
+[8.794287] (-) TimerEvent: {}
+[8.843406] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.847302] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.894505] (-) TimerEvent: {}
+[8.995261] (-) TimerEvent: {}
+[9.096066] (-) TimerEvent: {}
+[9.196850] (-) TimerEvent: {}
+[9.292340] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.297027] (-) TimerEvent: {}
+[9.297783] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.397211] (-) TimerEvent: {}
+[9.497933] (-) TimerEvent: {}
+[9.598712] (-) TimerEvent: {}
+[9.699516] (-) TimerEvent: {}
+[9.753553] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.799719] (-) TimerEvent: {}
+[9.900536] (-) TimerEvent: {}
+[10.000101] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[10.000727] (-) TimerEvent: {}
+[10.101574] (-) TimerEvent: {}
+[10.202503] (-) TimerEvent: {}
+[10.303281] (-) TimerEvent: {}
+[10.404228] (-) TimerEvent: {}
+[10.489211] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.504485] (-) TimerEvent: {}
+[10.605315] (-) TimerEvent: {}
+[10.620805] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[10.629815] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/seav/ros2_ws/build/rplidar_ros\n'}
+[10.688593] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[10.692052] (tf2) JobSkipped: {'identifier': 'tf2'}
+[10.692185] (tf2_bullet) JobSkipped: {'identifier': 'tf2_bullet'}
+[10.692273] (tf2_eigen) JobSkipped: {'identifier': 'tf2_eigen'}
+[10.692358] (tf2_py) JobSkipped: {'identifier': 'tf2_py'}
+[10.692489] (tf2_ros) JobSkipped: {'identifier': 'tf2_ros'}
+[10.692574] (static_tf_publisher) JobSkipped: {'identifier': 'static_tf_publisher'}
+[10.692700] (tf2_geometry_msgs) JobSkipped: {'identifier': 'tf2_geometry_msgs'}
+[10.692889] (tf2_kdl) JobSkipped: {'identifier': 'tf2_kdl'}
+[10.692985] (tf2_sensor_msgs) JobSkipped: {'identifier': 'tf2_sensor_msgs'}
+[10.693080] (tf2_tools) JobSkipped: {'identifier': 'tf2_tools'}
+[10.693173] (geometry2) JobSkipped: {'identifier': 'geometry2'}
+[10.693266] (test_tf2) JobSkipped: {'identifier': 'test_tf2'}
+[10.693359] (-) EventReactorShutdown: {}

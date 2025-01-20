@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing seav_test_sensors.egg-info/PKG-INFO
+writing dependency_links to seav_test_sensors.egg-info/dependency_links.txt
+writing entry points to seav_test_sensors.egg-info/entry_points.txt
+writing requirements to seav_test_sensors.egg-info/requires.txt
+writing top-level names to seav_test_sensors.egg-info/top_level.txt
+reading manifest file 'seav_test_sensors.egg-info/SOURCES.txt'
+writing manifest file 'seav_test_sensors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav-test-sensors.egg-link (link to .)
+Installing imu_serial_publisher script to /home/seav/ros2_ws/install/seav_test_sensors/lib/seav_test_sensors
+
+Installed /home/seav/ros2_ws/build/seav_test_sensors
+running symlink_data
+symbolically linking /home/seav/ros2_ws/build/seav_test_sensors/resource/seav_test_sensors -> /home/seav/ros2_ws/install/seav_test_sensors/share/ament_index/resource_index/packages
+symbolically linking /home/seav/ros2_ws/build/seav_test_sensors/package.xml -> /home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors

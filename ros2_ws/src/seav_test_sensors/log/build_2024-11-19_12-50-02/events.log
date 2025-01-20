@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001624] (seav_test_sensors) JobQueued: {'identifier': 'seav_test_sensors', 'dependencies': OrderedDict()}
+[0.002286] (seav_test_sensors) JobStarted: {'identifier': 'seav_test_sensors'}
+[0.099273] (-) TimerEvent: {}
+[0.200840] (-) TimerEvent: {}
+[0.301921] (-) TimerEvent: {}
+[0.402755] (-) TimerEvent: {}
+[0.503461] (-) TimerEvent: {}
+[0.604217] (-) TimerEvent: {}
+[0.704944] (-) TimerEvent: {}
+[0.805657] (-) TimerEvent: {}
+[0.906403] (-) TimerEvent: {}
+[1.007065] (-) TimerEvent: {}
+[1.107716] (-) TimerEvent: {}
+[1.208382] (-) TimerEvent: {}
+[1.309078] (-) TimerEvent: {}
+[1.410092] (-) TimerEvent: {}
+[1.570659] (-) TimerEvent: {}
+[1.671484] (-) TimerEvent: {}
+[1.772719] (-) TimerEvent: {}
+[1.873663] (-) TimerEvent: {}
+[1.974435] (-) TimerEvent: {}
+[2.075126] (-) TimerEvent: {}
+[2.175843] (-) TimerEvent: {}
+[2.276530] (-) TimerEvent: {}
+[2.377208] (-) TimerEvent: {}
+[2.477860] (-) TimerEvent: {}
+[2.578554] (-) TimerEvent: {}
+[2.679219] (-) TimerEvent: {}
+[2.779890] (-) TimerEvent: {}
+[2.880596] (-) TimerEvent: {}
+[2.981329] (-) TimerEvent: {}
+[3.082023] (-) TimerEvent: {}
+[3.182760] (-) TimerEvent: {}
+[3.283473] (-) TimerEvent: {}
+[3.384174] (-) TimerEvent: {}
+[3.484919] (-) TimerEvent: {}
+[3.585649] (-) TimerEvent: {}
+[3.686558] (-) TimerEvent: {}
+[3.766486] (seav_test_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/seav_test_sensors', 'build', '--build-base', '/home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build', 'install', '--record', '/home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seav/ros2_ws/src/seav_test_sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'seav', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seav', 'OLDPWD': '/home/seav/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1800', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/seav/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'seav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/seav-desktop:@/tmp/.ICE-unix/1778,unix/seav-desktop:/tmp/.ICE-unix/1778', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d686222b_81e1_4986_bd6e_618daa882b89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/seav/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seav', 'AMENT_PREFIX_PATH': '/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seav/ros2_ws/install/rplidar_ros'}, 'shell': False}
+[3.786820] (-) TimerEvent: {}
+[3.887653] (-) TimerEvent: {}
+[3.988366] (-) TimerEvent: {}
+[4.089046] (-) TimerEvent: {}
+[4.189779] (-) TimerEvent: {}
+[4.290506] (-) TimerEvent: {}
+[4.391226] (-) TimerEvent: {}
+[4.491877] (-) TimerEvent: {}
+[4.592566] (-) TimerEvent: {}
+[4.693245] (-) TimerEvent: {}
+[4.793901] (-) TimerEvent: {}
+[4.894596] (-) TimerEvent: {}
+[4.995287] (-) TimerEvent: {}
+[5.096034] (-) TimerEvent: {}
+[5.154846] (seav_test_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[5.157611] (seav_test_sensors) StdoutLine: {'line': b'creating build/seav_test_sensors/seav_test_sensors.egg-info\n'}
+[5.158497] (seav_test_sensors) StdoutLine: {'line': b'writing build/seav_test_sensors/seav_test_sensors.egg-info/PKG-INFO\n'}
+[5.159677] (seav_test_sensors) StdoutLine: {'line': b'writing dependency_links to build/seav_test_sensors/seav_test_sensors.egg-info/dependency_links.txt\n'}
+[5.160314] (seav_test_sensors) StdoutLine: {'line': b'writing entry points to build/seav_test_sensors/seav_test_sensors.egg-info/entry_points.txt\n'}
+[5.160887] (seav_test_sensors) StdoutLine: {'line': b'writing requirements to build/seav_test_sensors/seav_test_sensors.egg-info/requires.txt\n'}
+[5.161621] (seav_test_sensors) StdoutLine: {'line': b'writing top-level names to build/seav_test_sensors/seav_test_sensors.egg-info/top_level.txt\n'}
+[5.162864] (seav_test_sensors) StdoutLine: {'line': b"writing manifest file 'build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[5.170601] (seav_test_sensors) StdoutLine: {'line': b"reading manifest file 'build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[5.174402] (seav_test_sensors) StdoutLine: {'line': b"writing manifest file 'build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[5.175102] (seav_test_sensors) StdoutLine: {'line': b'running build\n'}
+[5.175523] (seav_test_sensors) StdoutLine: {'line': b'running build_py\n'}
+[5.176084] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build\n'}
+[5.176688] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib\n'}
+[5.177246] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[5.177625] (seav_test_sensors) StdoutLine: {'line': b'copying seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[5.178131] (seav_test_sensors) StdoutLine: {'line': b'copying seav_test_sensors/__init__.py -> /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[5.179150] (seav_test_sensors) StdoutLine: {'line': b'running install\n'}
+[5.180577] (seav_test_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[5.184544] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[5.185148] (seav_test_sensors) StdoutLine: {'line': b'copying /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib/seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[5.186056] (seav_test_sensors) StdoutLine: {'line': b'copying /home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/build/lib/seav_test_sensors/__init__.py -> /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[5.188939] (seav_test_sensors) StdoutLine: {'line': b'byte-compiling /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/imu_serial_publisher.py to imu_serial_publisher.cpython-310.pyc\n'}
+[5.192235] (seav_test_sensors) StdoutLine: {'line': b'byte-compiling /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/__init__.py to __init__.cpython-310.pyc\n'}
+[5.193377] (seav_test_sensors) StdoutLine: {'line': b'running install_data\n'}
+[5.193974] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/share/ament_index\n'}
+[5.194610] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/share/ament_index/resource_index\n'}
+[5.195106] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/share/ament_index/resource_index/packages\n'}
+[5.195490] (seav_test_sensors) StdoutLine: {'line': b'copying resource/seav_test_sensors -> /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/share/ament_index/resource_index/packages\n'}
+[5.195950] (seav_test_sensors) StdoutLine: {'line': b'copying package.xml -> /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/share/seav_test_sensors\n'}
+[5.196323] (-) TimerEvent: {}
+[5.196823] (seav_test_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.204242] (seav_test_sensors) StdoutLine: {'line': b'Copying build/seav_test_sensors/seav_test_sensors.egg-info to /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors-0.0.0-py3.10.egg-info\n'}
+[5.210792] (seav_test_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[5.296537] (-) TimerEvent: {}
+[5.309947] (seav_test_sensors) StdoutLine: {'line': b'Installing imu_serial_publisher script to /home/seav/ros2_ws/src/seav_test_sensors/install/seav_test_sensors/lib/seav_test_sensors\n'}
+[5.311652] (seav_test_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/seav/ros2_ws/src/seav_test_sensors/build/seav_test_sensors/install.log'\n"}
+[5.396850] (-) TimerEvent: {}
+[5.462443] (seav_test_sensors) CommandEnded: {'returncode': 0}
+[5.497014] (-) TimerEvent: {}
+[5.544709] (seav_test_sensors) JobEnded: {'identifier': 'seav_test_sensors', 'rc': 0}
+[5.549296] (-) EventReactorShutdown: {}

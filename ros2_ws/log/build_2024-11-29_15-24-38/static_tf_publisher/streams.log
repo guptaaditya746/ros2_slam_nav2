@@ -1,0 +1,20 @@
+[11.058s] Invoking command in '/home/seav/ros2_ws/src/static_tf_publisher': PYTHONPATH=/home/seav/ros2_ws/build/static_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/static_tf_publisher build --build-base /home/seav/ros2_ws/build/static_tf_publisher/build install --record /home/seav/ros2_ws/build/static_tf_publisher/install.log --single-version-externally-managed install_data
+[15.292s] running egg_info
+[15.293s] writing ../../build/static_tf_publisher/static_tf_publisher.egg-info/PKG-INFO
+[15.300s] writing dependency_links to ../../build/static_tf_publisher/static_tf_publisher.egg-info/dependency_links.txt
+[15.302s] writing entry points to ../../build/static_tf_publisher/static_tf_publisher.egg-info/entry_points.txt
+[15.305s] writing requirements to ../../build/static_tf_publisher/static_tf_publisher.egg-info/requires.txt
+[15.313s] writing top-level names to ../../build/static_tf_publisher/static_tf_publisher.egg-info/top_level.txt
+[15.368s] reading manifest file '../../build/static_tf_publisher/static_tf_publisher.egg-info/SOURCES.txt'
+[15.393s] writing manifest file '../../build/static_tf_publisher/static_tf_publisher.egg-info/SOURCES.txt'
+[15.395s] running build
+[15.396s] running build_py
+[15.415s] running install
+[15.417s] running install_lib
+[15.458s] running install_data
+[15.462s] running install_egg_info
+[15.482s] removing '/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[15.486s] Copying ../../build/static_tf_publisher/static_tf_publisher.egg-info to /home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher-0.0.0-py3.10.egg-info
+[15.514s] running install_scripts
+[15.900s] writing list of installed files to '/home/seav/ros2_ws/build/static_tf_publisher/install.log'
+[16.493s] Invoked command in '/home/seav/ros2_ws/src/static_tf_publisher' returned '0': PYTHONPATH=/home/seav/ros2_ws/build/static_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/static_tf_publisher build --build-base /home/seav/ros2_ws/build/static_tf_publisher/build install --record /home/seav/ros2_ws/build/static_tf_publisher/install.log --single-version-externally-managed install_data

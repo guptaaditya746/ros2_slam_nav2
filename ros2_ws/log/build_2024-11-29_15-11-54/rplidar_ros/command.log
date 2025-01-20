@@ -1,0 +1,1 @@
+Invoking command in '/home/seav/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble /usr/bin/cmake /home/seav/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/seav/ros2_ws/install/rplidar_ros

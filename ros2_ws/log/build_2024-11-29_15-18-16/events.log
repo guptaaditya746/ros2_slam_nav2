@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.001470] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001943] (seav_test_sensors) JobQueued: {'identifier': 'seav_test_sensors', 'dependencies': OrderedDict()}
+[0.002265] (static_tf_publisher) JobQueued: {'identifier': 'static_tf_publisher', 'dependencies': OrderedDict()}
+[0.002445] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.042146] (seav_test_sensors) JobStarted: {'identifier': 'seav_test_sensors'}
+[0.096043] (static_tf_publisher) JobStarted: {'identifier': 'static_tf_publisher'}
+[0.099779] (-) TimerEvent: {}
+[0.162154] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.166642] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.171501] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seav/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/seav/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'seav'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seav'), ('OLDPWD', '/home/seav/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3401'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/seav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'seav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/seav-desktop:@/tmp/.ICE-unix/2724,unix/seav-desktop:/tmp/.ICE-unix/2724'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5064a6ea_dfbd_4a9e_9912_11123532ff14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/seav/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/seav'), ('AMENT_PREFIX_PATH', '/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seav/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seav/ros2_ws/install/rplidar_ros:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble')]), 'shell': False}
+[0.203477] (-) TimerEvent: {}
+[0.304505] (-) TimerEvent: {}
+[0.405508] (-) TimerEvent: {}
+[0.506817] (-) TimerEvent: {}
+[0.608192] (-) TimerEvent: {}
+[0.710011] (-) TimerEvent: {}
+[0.811679] (-) TimerEvent: {}
+[0.913073] (-) TimerEvent: {}
+[1.013953] (-) TimerEvent: {}
+[1.115841] (-) TimerEvent: {}
+[1.217960] (-) TimerEvent: {}
+[1.320152] (-) TimerEvent: {}
+[1.421964] (-) TimerEvent: {}
+[1.523759] (-) TimerEvent: {}
+[1.625232] (-) TimerEvent: {}
+[1.726718] (-) TimerEvent: {}
+[1.828166] (-) TimerEvent: {}
+[1.929894] (-) TimerEvent: {}
+[2.031725] (-) TimerEvent: {}
+[2.133405] (-) TimerEvent: {}
+[2.235132] (-) TimerEvent: {}
+[2.337655] (-) TimerEvent: {}
+[2.439151] (-) TimerEvent: {}
+[2.540913] (-) TimerEvent: {}
+[2.643964] (-) TimerEvent: {}
+[2.715832] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o\x1b[0m\n'}
+[2.716785] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[2.717643] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[2.719461] (rplidar_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[2.744190] (-) TimerEvent: {}
+[2.845316] (-) TimerEvent: {}
+[2.946574] (-) TimerEvent: {}
+[3.047573] (-) TimerEvent: {}
+[3.148520] (-) TimerEvent: {}
+[3.249473] (-) TimerEvent: {}
+[3.350445] (-) TimerEvent: {}
+[3.451824] (-) TimerEvent: {}
+[3.554524] (-) TimerEvent: {}
+[3.655469] (-) TimerEvent: {}
+[3.756288] (-) TimerEvent: {}
+[3.857173] (-) TimerEvent: {}
+[3.958466] (-) TimerEvent: {}
+[4.059611] (-) TimerEvent: {}
+[4.160749] (-) TimerEvent: {}
+[4.262071] (-) TimerEvent: {}
+[4.364366] (-) TimerEvent: {}
+[4.466446] (-) TimerEvent: {}
+[4.568464] (-) TimerEvent: {}
+[4.670103] (-) TimerEvent: {}
+[4.771265] (-) TimerEvent: {}
+[4.872555] (-) TimerEvent: {}
+[4.974867] (-) TimerEvent: {}
+[5.077164] (-) TimerEvent: {}
+[5.179543] (-) TimerEvent: {}
+[5.282639] (-) TimerEvent: {}
+[5.386430] (-) TimerEvent: {}
+[5.488472] (-) TimerEvent: {}
+[5.590465] (-) TimerEvent: {}
+[5.692887] (-) TimerEvent: {}
+[5.794884] (-) TimerEvent: {}
+[5.897354] (-) TimerEvent: {}
+[6.001135] (-) TimerEvent: {}
+[6.104387] (-) TimerEvent: {}
+[6.206781] (-) TimerEvent: {}
+[6.309368] (-) TimerEvent: {}
+[6.412076] (-) TimerEvent: {}
+[6.514518] (-) TimerEvent: {}
+[6.616869] (-) TimerEvent: {}
+[6.719075] (-) TimerEvent: {}
+[6.821859] (-) TimerEvent: {}
+[6.922807] (-) TimerEvent: {}
+[7.023912] (-) TimerEvent: {}
+[7.080069] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.084002] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.085484] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[7.086751] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.092264] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.093044] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.093913] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[7.094900] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.095568] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.096197] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.096815] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[7.097621] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[7.104497] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.110765] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.111403] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[7.112113] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[7.119901] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::cancelOperation()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.120727] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.121647] (rplidar_ros) StderrLine: {'line': b'  427 |     \x1b[01;35m\x1b[K(int)::write(_selfpipe[1], "x", 1)\x1b[m\x1b[K;\n'}
+[7.123211] (rplidar_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.124094] (-) TimerEvent: {}
+[7.226161] (-) TimerEvent: {}
+[7.329389] (-) TimerEvent: {}
+[7.431213] (-) TimerEvent: {}
+[7.533222] (-) TimerEvent: {}
+[7.634370] (-) TimerEvent: {}
+[7.735762] (-) TimerEvent: {}
+[7.837172] (-) TimerEvent: {}
+[7.966022] (-) TimerEvent: {}
+[8.067349] (-) TimerEvent: {}
+[8.168388] (-) TimerEvent: {}
+[8.269789] (-) TimerEvent: {}
+[8.371148] (-) TimerEvent: {}
+[8.473015] (-) TimerEvent: {}
+[8.574237] (-) TimerEvent: {}
+[8.675533] (-) TimerEvent: {}
+[8.776582] (-) TimerEvent: {}
+[8.877592] (-) TimerEvent: {}
+[8.978777] (-) TimerEvent: {}
+[9.079906] (-) TimerEvent: {}
+[9.180921] (-) TimerEvent: {}
+[9.220162] (rplidar_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[9.281243] (-) TimerEvent: {}
+[9.383037] (-) TimerEvent: {}
+[9.485108] (-) TimerEvent: {}
+[9.587053] (-) TimerEvent: {}
+[9.689485] (-) TimerEvent: {}
+[9.791885] (-) TimerEvent: {}
+[9.894486] (-) TimerEvent: {}
+[9.996292] (-) TimerEvent: {}
+[10.099117] (-) TimerEvent: {}
+[10.200999] (-) TimerEvent: {}
+[10.302337] (-) TimerEvent: {}
+[10.403571] (-) TimerEvent: {}
+[10.504655] (-) TimerEvent: {}
+[10.605801] (-) TimerEvent: {}
+[10.706962] (-) TimerEvent: {}
+[10.808125] (-) TimerEvent: {}
+[10.909271] (-) TimerEvent: {}
+[11.010285] (-) TimerEvent: {}
+[11.111216] (-) TimerEvent: {}
+[11.212381] (-) TimerEvent: {}
+[11.313362] (-) TimerEvent: {}
+[11.414477] (-) TimerEvent: {}
+[11.528170] (-) TimerEvent: {}
+[11.629349] (-) TimerEvent: {}
+[11.730525] (-) TimerEvent: {}
+[11.831714] (-) TimerEvent: {}
+[11.932746] (-) TimerEvent: {}
+[12.033865] (-) TimerEvent: {}
+[12.135625] (-) TimerEvent: {}
+[12.236623] (-) TimerEvent: {}
+[12.337624] (-) TimerEvent: {}
+[12.439005] (-) TimerEvent: {}
+[12.540048] (-) TimerEvent: {}
+[12.641270] (-) TimerEvent: {}
+[12.742461] (-) TimerEvent: {}
+[12.844096] (-) TimerEvent: {}
+[12.946033] (-) TimerEvent: {}
+[13.047440] (-) TimerEvent: {}
+[13.151014] (-) TimerEvent: {}
+[13.252091] (-) TimerEvent: {}
+[13.353404] (-) TimerEvent: {}
+[13.455354] (-) TimerEvent: {}
+[13.556458] (-) TimerEvent: {}
+[13.657526] (-) TimerEvent: {}
+[13.758676] (-) TimerEvent: {}
+[13.859763] (-) TimerEvent: {}
+[13.960741] (-) TimerEvent: {}
+[14.061749] (-) TimerEvent: {}
+[14.163120] (-) TimerEvent: {}
+[14.265019] (-) TimerEvent: {}
+[14.366481] (-) TimerEvent: {}
+[14.393906] (seav_test_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/seav_test_sensors', 'build', '--build-base', '/home/seav/ros2_ws/build/seav_test_sensors/build', 'install', '--record', '/home/seav/ros2_ws/build/seav_test_sensors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seav/ros2_ws/src/seav_test_sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'seav', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seav', 'OLDPWD': '/home/seav/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '3401', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/seav/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'seav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/seav-desktop:@/tmp/.ICE-unix/2724,unix/seav-desktop:/tmp/.ICE-unix/2724', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5064a6ea_dfbd_4a9e_9912_11123532ff14', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/seav/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seav', 'AMENT_PREFIX_PATH': '/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/seav/ros2_ws/build/seav_test_sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/seav/ros2_ws/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seav/ros2_ws/install/rplidar_ros'}, 'shell': False}
+[14.466785] (-) TimerEvent: {}
+[14.569380] (-) TimerEvent: {}
+[14.672707] (-) TimerEvent: {}
+[14.776190] (-) TimerEvent: {}
+[14.878098] (-) TimerEvent: {}
+[14.937461] (static_tf_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/static_tf_publisher', 'build', '--build-base', '/home/seav/ros2_ws/build/static_tf_publisher/build', 'install', '--record', '/home/seav/ros2_ws/build/static_tf_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seav/ros2_ws/src/static_tf_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'seav', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seav', 'OLDPWD': '/home/seav/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '3401', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/seav/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'seav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/seav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/seav-desktop:@/tmp/.ICE-unix/2724,unix/seav-desktop:/tmp/.ICE-unix/2724', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5064a6ea_dfbd_4a9e_9912_11123532ff14', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/seav/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seav', 'AMENT_PREFIX_PATH': '/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/home/seav/ros2_ws/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/seav/ros2_ws/build/static_tf_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/seav/ros2_ws/build/static_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seav/ros2_ws/install/rplidar_ros'}, 'shell': False}
+[14.995467] (-) TimerEvent: {}
+[15.099784] (-) TimerEvent: {}
+[15.202079] (-) TimerEvent: {}
+[15.304073] (-) TimerEvent: {}
+[15.414054] (-) TimerEvent: {}
+[15.534669] (-) TimerEvent: {}
+[15.641469] (-) TimerEvent: {}
+[15.743831] (-) TimerEvent: {}
+[15.845196] (-) TimerEvent: {}
+[15.953313] (-) TimerEvent: {}
+[16.066046] (-) TimerEvent: {}
+[16.167407] (-) TimerEvent: {}
+[16.268363] (-) TimerEvent: {}
+[16.370498] (-) TimerEvent: {}
+[16.472837] (-) TimerEvent: {}
+[16.585991] (-) TimerEvent: {}
+[16.688275] (-) TimerEvent: {}
+[16.790778] (-) TimerEvent: {}
+[16.892306] (-) TimerEvent: {}
+[16.994964] (-) TimerEvent: {}
+[17.102233] (-) TimerEvent: {}
+[17.203124] (-) TimerEvent: {}
+[17.266067] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[17.268687] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[17.269634] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[17.271250] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[17.272240] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.274057] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.276053] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.285321] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[17.298712] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[17.301129] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[17.306197] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[17.307251] (-) TimerEvent: {}
+[17.319674] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.330572] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.331150] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.407672] (-) TimerEvent: {}
+[17.510468] (-) TimerEvent: {}
+[17.612422] (-) TimerEvent: {}
+[17.714567] (-) TimerEvent: {}
+[17.816764] (-) TimerEvent: {}
+[17.918680] (-) TimerEvent: {}
+[18.020664] (-) TimerEvent: {}
+[18.122506] (-) TimerEvent: {}
+[18.224578] (-) TimerEvent: {}
+[18.326601] (-) TimerEvent: {}
+[18.353576] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[18.354453] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:41\x1b[m\x1b[K,\n'}
+[18.355162] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[18.368345] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.369117] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/seav/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.369916] (rplidar_ros) StderrLine: {'line': b'  733 |             assert(\x1b[01;35m\x1b[Kans == len\x1b[m\x1b[K);\n'}
+[18.370654] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[18.426826] (-) TimerEvent: {}
+[18.528707] (-) TimerEvent: {}
+[18.630810] (-) TimerEvent: {}
+[18.732133] (-) TimerEvent: {}
+[18.834178] (-) TimerEvent: {}
+[18.936033] (-) TimerEvent: {}
+[19.037986] (-) TimerEvent: {}
+[19.139905] (-) TimerEvent: {}
+[19.241905] (-) TimerEvent: {}
+[19.344105] (-) TimerEvent: {}
+[19.446125] (-) TimerEvent: {}
+[19.548076] (-) TimerEvent: {}
+[19.649980] (-) TimerEvent: {}
+[19.719265] (seav_test_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[19.723677] (seav_test_sensors) StdoutLine: {'line': b'creating ../../build/seav_test_sensors/seav_test_sensors.egg-info\n'}
+[19.724893] (seav_test_sensors) StdoutLine: {'line': b'writing ../../build/seav_test_sensors/seav_test_sensors.egg-info/PKG-INFO\n'}
+[19.727195] (seav_test_sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/seav_test_sensors/seav_test_sensors.egg-info/dependency_links.txt\n'}
+[19.728416] (seav_test_sensors) StdoutLine: {'line': b'writing entry points to ../../build/seav_test_sensors/seav_test_sensors.egg-info/entry_points.txt\n'}
+[19.732463] (seav_test_sensors) StdoutLine: {'line': b'writing requirements to ../../build/seav_test_sensors/seav_test_sensors.egg-info/requires.txt\n'}
+[19.733898] (seav_test_sensors) StdoutLine: {'line': b'writing top-level names to ../../build/seav_test_sensors/seav_test_sensors.egg-info/top_level.txt\n'}
+[19.734729] (seav_test_sensors) StdoutLine: {'line': b"writing manifest file '../../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[19.745012] (seav_test_sensors) StdoutLine: {'line': b"reading manifest file '../../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[19.750076] (seav_test_sensors) StdoutLine: {'line': b"writing manifest file '../../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'\n"}
+[19.751192] (-) TimerEvent: {}
+[19.752157] (seav_test_sensors) StdoutLine: {'line': b'running build\n'}
+[19.753623] (seav_test_sensors) StdoutLine: {'line': b'running build_py\n'}
+[19.756254] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/seav_test_sensors/build\n'}
+[19.758047] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/seav_test_sensors/build/lib\n'}
+[19.759897] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[19.762413] (seav_test_sensors) StdoutLine: {'line': b'copying seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[19.775254] (seav_test_sensors) StdoutLine: {'line': b'copying seav_test_sensors/__init__.py -> /home/seav/ros2_ws/build/seav_test_sensors/build/lib/seav_test_sensors\n'}
+[19.778509] (seav_test_sensors) StdoutLine: {'line': b'running install\n'}
+[19.782041] (seav_test_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[19.798797] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[19.803407] (seav_test_sensors) StdoutLine: {'line': b'copying /home/seav/ros2_ws/build/seav_test_sensors/build/lib/seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[19.808869] (seav_test_sensors) StdoutLine: {'line': b'copying /home/seav/ros2_ws/build/seav_test_sensors/build/lib/seav_test_sensors/__init__.py -> /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors\n'}
+[19.820167] (seav_test_sensors) StdoutLine: {'line': b'byte-compiling /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/imu_serial_publisher.py to imu_serial_publisher.cpython-310.pyc\n'}
+[19.835449] (seav_test_sensors) StdoutLine: {'line': b'byte-compiling /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/__init__.py to __init__.cpython-310.pyc\n'}
+[19.837159] (seav_test_sensors) StdoutLine: {'line': b'running install_data\n'}
+[19.840560] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/seav_test_sensors/share/ament_index\n'}
+[19.841656] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/seav_test_sensors/share/ament_index/resource_index\n'}
+[19.842481] (seav_test_sensors) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/seav_test_sensors/share/ament_index/resource_index/packages\n'}
+[19.843494] (seav_test_sensors) StdoutLine: {'line': b'copying resource/seav_test_sensors -> /home/seav/ros2_ws/install/seav_test_sensors/share/ament_index/resource_index/packages\n'}
+[19.850545] (seav_test_sensors) StdoutLine: {'line': b'copying package.xml -> /home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors\n'}
+[19.851572] (-) TimerEvent: {}
+[19.859128] (seav_test_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.894166] (seav_test_sensors) StdoutLine: {'line': b'Copying ../../build/seav_test_sensors/seav_test_sensors.egg-info to /home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors-0.0.0-py3.10.egg-info\n'}
+[19.936376] (seav_test_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[19.940143] (static_tf_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[19.945347] (static_tf_publisher) StdoutLine: {'line': b'creating ../../build/static_tf_publisher/static_tf_publisher.egg-info\n'}
+[19.951999] (-) TimerEvent: {}
+[19.958305] (static_tf_publisher) StdoutLine: {'line': b'writing ../../build/static_tf_publisher/static_tf_publisher.egg-info/PKG-INFO\n'}
+[19.960479] (static_tf_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/static_tf_publisher/static_tf_publisher.egg-info/dependency_links.txt\n'}
+[19.962197] (static_tf_publisher) StdoutLine: {'line': b'writing entry points to ../../build/static_tf_publisher/static_tf_publisher.egg-info/entry_points.txt\n'}
+[19.967081] (static_tf_publisher) StdoutLine: {'line': b'writing requirements to ../../build/static_tf_publisher/static_tf_publisher.egg-info/requires.txt\n'}
+[19.968033] (static_tf_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/static_tf_publisher/static_tf_publisher.egg-info/top_level.txt\n'}
+[19.969099] (static_tf_publisher) StdoutLine: {'line': b"writing manifest file '../../build/static_tf_publisher/static_tf_publisher.egg-info/SOURCES.txt'\n"}
+[19.991685] (static_tf_publisher) StdoutLine: {'line': b"reading manifest file '../../build/static_tf_publisher/static_tf_publisher.egg-info/SOURCES.txt'\n"}
+[20.003521] (static_tf_publisher) StdoutLine: {'line': b"writing manifest file '../../build/static_tf_publisher/static_tf_publisher.egg-info/SOURCES.txt'\n"}
+[20.013090] (static_tf_publisher) StdoutLine: {'line': b'running build\n'}
+[20.014720] (static_tf_publisher) StdoutLine: {'line': b'running build_py\n'}
+[20.016793] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/static_tf_publisher/build\n'}
+[20.018745] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/static_tf_publisher/build/lib\n'}
+[20.019913] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/build/static_tf_publisher/build/lib/static_tf_publisher\n'}
+[20.020884] (static_tf_publisher) StdoutLine: {'line': b'copying static_tf_publisher/__init__.py -> /home/seav/ros2_ws/build/static_tf_publisher/build/lib/static_tf_publisher\n'}
+[20.034890] (static_tf_publisher) StdoutLine: {'line': b'running install\n'}
+[20.036877] (static_tf_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[20.052261] (-) TimerEvent: {}
+[20.058902] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher\n'}
+[20.061497] (static_tf_publisher) StdoutLine: {'line': b'copying /home/seav/ros2_ws/build/static_tf_publisher/build/lib/static_tf_publisher/__init__.py -> /home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher\n'}
+[20.070044] (static_tf_publisher) StdoutLine: {'line': b'byte-compiling /home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[20.074396] (static_tf_publisher) StdoutLine: {'line': b'running install_data\n'}
+[20.076415] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/static_tf_publisher/share/ament_index\n'}
+[20.078157] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/static_tf_publisher/share/ament_index/resource_index\n'}
+[20.080092] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/static_tf_publisher/share/ament_index/resource_index/packages\n'}
+[20.094770] (static_tf_publisher) StdoutLine: {'line': b'copying resource/static_tf_publisher -> /home/seav/ros2_ws/install/static_tf_publisher/share/ament_index/resource_index/packages\n'}
+[20.098758] (static_tf_publisher) StdoutLine: {'line': b'copying package.xml -> /home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher\n'}
+[20.136602] (static_tf_publisher) StdoutLine: {'line': b'creating /home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/launch\n'}
+[20.141132] (static_tf_publisher) StdoutLine: {'line': b'copying launch/static_tf_launch.py -> /home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/launch\n'}
+[20.152814] (-) TimerEvent: {}
+[20.155636] (static_tf_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.176420] (static_tf_publisher) StdoutLine: {'line': b'Copying ../../build/static_tf_publisher/static_tf_publisher.egg-info to /home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages/static_tf_publisher-0.0.0-py3.10.egg-info\n'}
+[20.231403] (static_tf_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[20.246000] (seav_test_sensors) StdoutLine: {'line': b'Installing imu_serial_publisher script to /home/seav/ros2_ws/install/seav_test_sensors/lib/seav_test_sensors\n'}
+[20.253146] (-) TimerEvent: {}
+[20.257701] (seav_test_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/seav/ros2_ws/build/seav_test_sensors/install.log'\n"}
+[20.353423] (-) TimerEvent: {}
+[20.404517] (rplidar_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[20.453707] (-) TimerEvent: {}
+[20.555771] (-) TimerEvent: {}
+[20.621605] (seav_test_sensors) CommandEnded: {'returncode': 0}
+[20.636878] (static_tf_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/seav/ros2_ws/build/static_tf_publisher/install.log'\n"}
+[20.656164] (-) TimerEvent: {}
+[20.759138] (-) TimerEvent: {}
+[20.866519] (-) TimerEvent: {}
+[20.973939] (-) TimerEvent: {}
+[20.978084] (seav_test_sensors) JobEnded: {'identifier': 'seav_test_sensors', 'rc': 0}
+[21.027170] (static_tf_publisher) CommandEnded: {'returncode': 0}
+[21.074384] (-) TimerEvent: {}
+[21.168938] (static_tf_publisher) JobEnded: {'identifier': 'static_tf_publisher', 'rc': 0}
+[21.174621] (-) TimerEvent: {}
+[21.276288] (-) TimerEvent: {}
+[21.378621] (-) TimerEvent: {}
+[21.479634] (-) TimerEvent: {}
+[21.580839] (-) TimerEvent: {}
+[21.682075] (-) TimerEvent: {}
+[21.783175] (-) TimerEvent: {}
+[21.894031] (-) TimerEvent: {}
+[21.995344] (-) TimerEvent: {}
+[22.097280] (-) TimerEvent: {}
+[22.199346] (-) TimerEvent: {}
+[22.317718] (-) TimerEvent: {}
+[22.419013] (-) TimerEvent: {}
+[22.520164] (-) TimerEvent: {}
+[22.622076] (-) TimerEvent: {}
+[22.724199] (-) TimerEvent: {}
+[22.826263] (-) TimerEvent: {}
+[22.928266] (-) TimerEvent: {}
+[23.030404] (-) TimerEvent: {}
+[23.132594] (-) TimerEvent: {}
+[23.234666] (-) TimerEvent: {}
+[23.336889] (-) TimerEvent: {}
+[23.439089] (-) TimerEvent: {}
+[23.540134] (-) TimerEvent: {}
+[23.642218] (-) TimerEvent: {}
+[23.744332] (-) TimerEvent: {}
+[23.846265] (-) TimerEvent: {}
+[23.948571] (-) TimerEvent: {}
+[24.051153] (-) TimerEvent: {}
+[24.152295] (-) TimerEvent: {}
+[24.254169] (-) TimerEvent: {}
+[24.355435] (-) TimerEvent: {}
+[24.457748] (-) TimerEvent: {}
+[24.559037] (-) TimerEvent: {}
+[24.660162] (-) TimerEvent: {}
+[24.761327] (-) TimerEvent: {}
+[24.862843] (-) TimerEvent: {}
+[24.964062] (-) TimerEvent: {}
+[25.065321] (-) TimerEvent: {}
+[25.167085] (-) TimerEvent: {}
+[25.269344] (-) TimerEvent: {}
+[25.372060] (-) TimerEvent: {}
+[25.483694] (-) TimerEvent: {}
+[25.585853] (-) TimerEvent: {}
+[25.701978] (-) TimerEvent: {}
+[25.804271] (-) TimerEvent: {}
+[25.922014] (-) TimerEvent: {}
+[26.034418] (-) TimerEvent: {}
+[26.137033] (-) TimerEvent: {}
+[26.239092] (-) TimerEvent: {}
+[26.340942] (-) TimerEvent: {}
+[26.443799] (-) TimerEvent: {}
+[26.546279] (-) TimerEvent: {}
+[26.651100] (-) TimerEvent: {}
+[26.752601] (-) TimerEvent: {}
+[26.854630] (-) TimerEvent: {}
+[26.958260] (-) TimerEvent: {}
+[28.103676] (-) TimerEvent: {}

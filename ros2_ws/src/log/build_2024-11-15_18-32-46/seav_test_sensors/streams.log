@@ -1,0 +1,37 @@
+[4.123s] Invoking command in '/home/seav/ros2_ws/src/seav_test_sensors': PYTHONPATH=/home/seav/ros2_ws/src/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/seav_test_sensors build --build-base /home/seav/ros2_ws/src/build/seav_test_sensors/build install --record /home/seav/ros2_ws/src/build/seav_test_sensors/install.log --single-version-externally-managed install_data
+[5.662s] running egg_info
+[5.666s] creating ../build/seav_test_sensors/seav_test_sensors.egg-info
+[5.667s] writing ../build/seav_test_sensors/seav_test_sensors.egg-info/PKG-INFO
+[5.669s] writing dependency_links to ../build/seav_test_sensors/seav_test_sensors.egg-info/dependency_links.txt
+[5.670s] writing entry points to ../build/seav_test_sensors/seav_test_sensors.egg-info/entry_points.txt
+[5.676s] writing requirements to ../build/seav_test_sensors/seav_test_sensors.egg-info/requires.txt
+[5.677s] writing top-level names to ../build/seav_test_sensors/seav_test_sensors.egg-info/top_level.txt
+[5.678s] writing manifest file '../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'
+[5.685s] reading manifest file '../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'
+[5.689s] writing manifest file '../build/seav_test_sensors/seav_test_sensors.egg-info/SOURCES.txt'
+[5.690s] running build
+[5.691s] running build_py
+[5.692s] creating /home/seav/ros2_ws/src/build/seav_test_sensors/build
+[5.693s] creating /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib
+[5.694s] creating /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib/seav_test_sensors
+[5.695s] copying seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib/seav_test_sensors
+[5.695s] copying seav_test_sensors/__init__.py -> /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib/seav_test_sensors
+[5.696s] running install
+[5.696s] running install_lib
+[5.700s] creating /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors
+[5.701s] copying /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib/seav_test_sensors/imu_serial_publisher.py -> /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors
+[5.702s] copying /home/seav/ros2_ws/src/build/seav_test_sensors/build/lib/seav_test_sensors/__init__.py -> /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors
+[5.707s] byte-compiling /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/imu_serial_publisher.py to imu_serial_publisher.cpython-310.pyc
+[5.710s] byte-compiling /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors/__init__.py to __init__.cpython-310.pyc
+[5.712s] running install_data
+[5.713s] creating /home/seav/ros2_ws/src/install/seav_test_sensors/share/ament_index
+[5.714s] creating /home/seav/ros2_ws/src/install/seav_test_sensors/share/ament_index/resource_index
+[5.715s] creating /home/seav/ros2_ws/src/install/seav_test_sensors/share/ament_index/resource_index/packages
+[5.716s] copying resource/seav_test_sensors -> /home/seav/ros2_ws/src/install/seav_test_sensors/share/ament_index/resource_index/packages
+[5.716s] copying package.xml -> /home/seav/ros2_ws/src/install/seav_test_sensors/share/seav_test_sensors
+[5.716s] running install_egg_info
+[5.725s] Copying ../build/seav_test_sensors/seav_test_sensors.egg-info to /home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages/seav_test_sensors-0.0.0-py3.10.egg-info
+[5.732s] running install_scripts
+[5.845s] Installing imu_serial_publisher script to /home/seav/ros2_ws/src/install/seav_test_sensors/lib/seav_test_sensors
+[5.847s] writing list of installed files to '/home/seav/ros2_ws/src/build/seav_test_sensors/install.log'
+[5.990s] Invoked command in '/home/seav/ros2_ws/src/seav_test_sensors' returned '0': PYTHONPATH=/home/seav/ros2_ws/src/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/src/install/seav_test_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/seav_test_sensors build --build-base /home/seav/ros2_ws/src/build/seav_test_sensors/build install --record /home/seav/ros2_ws/src/build/seav_test_sensors/install.log --single-version-externally-managed install_data

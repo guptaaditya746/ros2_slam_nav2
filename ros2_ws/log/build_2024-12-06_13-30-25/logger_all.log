@@ -1,0 +1,264 @@
+[1.520s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.521s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb0572da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb0663400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb0663400>>, mixin_verb=('build',))
+[3.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seav/ros2_ws'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ignore', 'ignore_ament_install']
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore_ament_install'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_pkg']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_pkg'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_meta']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_meta'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ros']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ros'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['cmake', 'python']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'cmake'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'python'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['python_setup_py']
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'python_setup_py'
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[3.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[3.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[3.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[3.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extensions ['ignore', 'ignore_ament_install']
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extension 'ignore'
+[3.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extension 'ignore_ament_install'
+[3.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extensions ['colcon_pkg']
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extension 'colcon_pkg'
+[3.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extensions ['colcon_meta']
+[3.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extension 'colcon_meta'
+[3.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extensions ['ros']
+[3.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav_test_sensors) by extension 'ros'
+[3.665s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav_test_sensors' with type 'ros.ament_python' and name 'seav_test_sensors'
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extensions ['ignore', 'ignore_ament_install']
+[3.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extension 'ignore'
+[3.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extension 'ignore_ament_install'
+[3.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extensions ['colcon_pkg']
+[3.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extension 'colcon_pkg'
+[3.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extensions ['colcon_meta']
+[3.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extension 'colcon_meta'
+[3.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extensions ['ros']
+[3.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/static_tf_publisher) by extension 'ros'
+[3.684s] DEBUG:colcon.colcon_core.package_identification:Package 'src/static_tf_publisher' with type 'ros.ament_python' and name 'static_tf_publisher'
+[3.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/seav/ros2_ws/install
+[4.061s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[4.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.325s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.325s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.325s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.325s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seav/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seav/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/seav/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_args' from command line to 'None'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_target' from command line to 'None'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[4.328s] Level 5:colcon.colcon_core.verb:set package 'seav_test_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.328s] DEBUG:colcon.colcon_core.verb:Building package 'seav_test_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seav/ros2_ws/build/seav_test_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seav/ros2_ws/install/seav_test_sensors', 'merge_install': False, 'path': '/home/seav/ros2_ws/src/seav_test_sensors', 'symlink_install': False, 'test_result_base': None}
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_args' from command line to 'None'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_target' from command line to 'None'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'static_tf_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.331s] DEBUG:colcon.colcon_core.verb:Building package 'static_tf_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seav/ros2_ws/build/static_tf_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seav/ros2_ws/install/static_tf_publisher', 'merge_install': False, 'path': '/home/seav/ros2_ws/src/static_tf_publisher', 'symlink_install': False, 'test_result_base': None}
+[4.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seav/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[4.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seav/ros2_ws/src/rplidar_ros'
+[4.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seav/ros2_ws/src/seav_test_sensors' with build type 'ament_python'
+[4.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav_test_sensors', 'ament_prefix_path')
+[4.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/ament_prefix_path.ps1'
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/ament_prefix_path.dsv'
+[4.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/ament_prefix_path.sh'
+[4.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.472s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seav/ros2_ws/src/static_tf_publisher' with build type 'ament_python'
+[4.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_tf_publisher', 'ament_prefix_path')
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/ament_prefix_path.ps1'
+[4.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/ament_prefix_path.dsv'
+[4.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/ament_prefix_path.sh'
+[4.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seav/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble /usr/bin/cmake --build /home/seav/ros2_ws/build/rplidar_ros -- -j4 -l4
+[7.527s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seav/ros2_ws/src/seav_test_sensors'
+[7.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.584s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seav/ros2_ws/src/static_tf_publisher'
+[10.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seav/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble /usr/bin/cmake --build /home/seav/ros2_ws/build/rplidar_ros -- -j4 -l4
+[12.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seav/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble /usr/bin/cmake --install /home/seav/ros2_ws/build/rplidar_ros
+[12.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[12.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seav/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seav/ros2_ws/install/static_tf_publisher:/home/seav/ros2_ws/install/seav_test_sensors:/opt/ros/humble /usr/bin/cmake --install /home/seav/ros2_ws/build/rplidar_ros
+[12.550s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros' for CMake module files
+[12.574s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros' for CMake config files
+[12.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[12.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[12.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[12.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[12.623s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib'
+[12.627s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/bin'
+[12.628s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[12.633s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[12.637s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/bin'
+[12.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[12.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[12.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[12.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[12.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[12.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seav/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[13.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[13.995s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros' for CMake module files
+[13.999s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros' for CMake config files
+[14.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[14.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[14.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[14.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[14.018s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib'
+[14.019s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/bin'
+[14.020s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[14.022s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[14.026s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/rplidar_ros/bin'
+[14.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[14.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[14.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[14.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[14.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[14.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seav/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[15.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seav/ros2_ws/src/static_tf_publisher': PYTHONPATH=/home/seav/ros2_ws/build/static_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/static_tf_publisher build --build-base /home/seav/ros2_ws/build/static_tf_publisher/build install --record /home/seav/ros2_ws/build/static_tf_publisher/install.log --single-version-externally-managed install_data
+[15.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seav/ros2_ws/src/seav_test_sensors': PYTHONPATH=/home/seav/ros2_ws/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/seav_test_sensors build --build-base /home/seav/ros2_ws/build/seav_test_sensors/build install --record /home/seav/ros2_ws/build/seav_test_sensors/install.log --single-version-externally-managed install_data
+[18.730s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher' for CMake module files
+[18.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seav/ros2_ws/src/static_tf_publisher' returned '0': PYTHONPATH=/home/seav/ros2_ws/build/static_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/static_tf_publisher build --build-base /home/seav/ros2_ws/build/static_tf_publisher/build install --record /home/seav/ros2_ws/build/static_tf_publisher/install.log --single-version-externally-managed install_data
+[18.751s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher' for CMake config files
+[18.782s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher/lib'
+[18.795s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher/bin'
+[18.797s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher/lib/pkgconfig/static_tf_publisher.pc'
+[18.800s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher/lib/python3.10/site-packages'
+[18.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_tf_publisher', 'pythonpath')
+[18.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/pythonpath.ps1'
+[18.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/pythonpath.dsv'
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/hook/pythonpath.sh'
+[18.846s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/static_tf_publisher/bin'
+[18.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(static_tf_publisher)
+[18.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/package.ps1'
+[18.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/package.dsv'
+[18.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/package.sh'
+[18.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/package.bash'
+[18.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/static_tf_publisher/share/static_tf_publisher/package.zsh'
+[18.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seav/ros2_ws/install/static_tf_publisher/share/colcon-core/packages/static_tf_publisher)
+[19.109s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors' for CMake module files
+[19.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seav/ros2_ws/src/seav_test_sensors' returned '0': PYTHONPATH=/home/seav/ros2_ws/build/seav_test_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/seav_test_sensors build --build-base /home/seav/ros2_ws/build/seav_test_sensors/build install --record /home/seav/ros2_ws/build/seav_test_sensors/install.log --single-version-externally-managed install_data
+[19.124s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors' for CMake config files
+[19.135s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors/lib'
+[19.136s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors/bin'
+[19.137s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors/lib/pkgconfig/seav_test_sensors.pc'
+[19.138s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors/lib/python3.10/site-packages'
+[19.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav_test_sensors', 'pythonpath')
+[19.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/pythonpath.ps1'
+[19.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/pythonpath.dsv'
+[19.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/hook/pythonpath.sh'
+[19.151s] Level 1:colcon.colcon_core.environment:checking '/home/seav/ros2_ws/install/seav_test_sensors/bin'
+[19.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(seav_test_sensors)
+[19.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/package.ps1'
+[19.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/package.dsv'
+[19.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/package.sh'
+[19.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/package.bash'
+[19.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/seav/ros2_ws/install/seav_test_sensors/share/seav_test_sensors/package.zsh'
+[19.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seav/ros2_ws/install/seav_test_sensors/share/colcon-core/packages/seav_test_sensors)
+[19.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.308s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seav/ros2_ws/install/local_setup.ps1'
+[19.324s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seav/ros2_ws/install/_local_setup_util_ps1.py'
+[19.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seav/ros2_ws/install/setup.ps1'
+[19.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seav/ros2_ws/install/local_setup.sh'
+[19.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seav/ros2_ws/install/_local_setup_util_sh.py'
+[19.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seav/ros2_ws/install/setup.sh'
+[19.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seav/ros2_ws/install/local_setup.bash'
+[19.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seav/ros2_ws/install/setup.bash'
+[19.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seav/ros2_ws/install/local_setup.zsh'
+[19.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seav/ros2_ws/install/setup.zsh'

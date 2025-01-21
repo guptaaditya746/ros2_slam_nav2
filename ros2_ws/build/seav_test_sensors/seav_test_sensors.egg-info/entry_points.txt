@@ -1,3 +1,0 @@
-[console_scripts]
-imu_serial_publisher = seav_test_sensors.imu_serial_publisher:main
-

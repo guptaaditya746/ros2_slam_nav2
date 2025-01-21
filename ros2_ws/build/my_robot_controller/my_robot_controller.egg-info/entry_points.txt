@@ -1,3 +1,0 @@
-[console_scripts]
-serial_motor_controller = my_robot_controller.serial_motor_controller:main
-

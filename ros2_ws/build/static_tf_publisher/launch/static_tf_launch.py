@@ -1,1 +1,0 @@
-/home/seav/ros2_ws/src/static_tf_publisher/launch/static_tf_launch.py
